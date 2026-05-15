@@ -6,6 +6,8 @@ This plan turns the current PRD and design documents into an implementation sequ
 
 The highest-risk prerequisites are legal/regulatory review and the standard financial statement template. They are Phase 0 decision gates.
 
+Implementation status is tracked separately in `docs/implementation-status.md`.
+
 ## 2. Phase 0: Decision Gates
 
 Do this before production-ready implementation of parser, recommendation, RAG, or report workflows.
@@ -27,6 +29,8 @@ Phase 0 acceptance criteria:
 ## 3. Phase 1: Foundation
 
 Build the repository and runtime foundation.
+
+Status: implemented.
 
 - Scaffold monorepo: `apps/web`, `apps/api`, `infra/compose`.
 - Add FastAPI app, health check, settings, test runner.
@@ -52,6 +56,8 @@ Acceptance criteria:
 - Store original file through storage adapter.
 - Build review/correction API and UI.
 - Add five standard financial statement fixtures.
+
+Status: customer CRUD vertical slice implemented. Financial statement storage, Excel parsing, review/correction UI, and fixtures remain pending.
 
 Acceptance criteria:
 

@@ -6,12 +6,14 @@ The product is an advisor support system, not a fully autonomous direct-to-consu
 
 ## Current Status
 
-This repository is in the documentation and planning stage. The original planning sources are preserved at the repository root:
+This repository has the Phase 1 foundation implemented and the first Customer CRUD vertical slice running locally. The original planning sources are preserved at the repository root:
 
 - `ai_개인별_재무포트폴리오_서비스_기획_설계서.md`
 - `Ai 재무포트폴리오 서비스 Prd.docx`
 
 Implementation-facing documents are under `docs/`.
+
+Current implementation details are tracked in `docs/implementation-status.md`.
 
 ## Key Documents
 
@@ -24,6 +26,7 @@ Implementation-facing documents are under `docs/`.
 - `docs/financial-statement-template.md`: standard Excel template v1 specification
 - `docs/rag-quality.md`: grounded generation and RAG quality rules
 - `docs/development-plan.md`: phased implementation plan and acceptance gates
+- `docs/implementation-status.md`: implemented scope, runtime status, verification, and next slice
 
 ## MVP Direction
 
